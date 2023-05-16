@@ -10,13 +10,14 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 
 
-		features = "src/test/resources/featureFiles/",
+		features = "src/test/resources/featureFiles/login.feature",
 
 		glue = { "steps","hooks"},
 
 		dryRun = !true,
 		
 		monochrome = true,
+		
 		
 		
 		plugin = {
